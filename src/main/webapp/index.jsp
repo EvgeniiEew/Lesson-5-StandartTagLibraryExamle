@@ -13,19 +13,22 @@
     <title>Veb</title>
 </head>
 <body>
-<h1> Random namber</h1>
-<%= Math.random()%>
+<div align="center">Текст
+<h1> Random namber</h1> <%= Math.random()%> <p><%=new java.util.Date()%>
+</p> <c:set var="Salary" scope="session" value="${200*3}"/>
+<c:out value="${Salary}"/>
+
 <p>
-    <%=new java.util.Date()%>
-</p>
-<p>
+<form>
     <button onclick="location.href='http://localhost:8080/JspServl_1_0_SNAPSHOT_war/mainTwo'" type="button">
-        main ТЫк</button>
+        main
+    </button>
 </form>
-</p>
+</div>
 <h2>First jsp</h2>
 <% int i = 7 * 7;%>
 <%@include file="indexTwo.jsp" %>
 <%= i %>
+</div>
 </body>
 </html>
