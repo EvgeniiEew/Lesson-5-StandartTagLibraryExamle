@@ -23,5 +23,9 @@
         main ТЫк</button>
 </form>
 </p>
+<h2>First jsp</h2>
+<% int i = 7 * 7;%>
+<%@include file="indexTwo.jsp" %>
+<%= i %>
 </body>
 </html>

@@ -13,8 +13,7 @@
     <title>Veb</title>
 </head>
 <body>
-<h1> Random namber</h1>
-<%= Math.random()%>
-
+<h1>Namber i = </h1>
+<%i=30;%>
 </body>
 </html>
